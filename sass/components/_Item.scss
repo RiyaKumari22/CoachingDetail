@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 488px;
+    background-color: white;
+    border-right: 3px solid black;
+& .list{
+   font-size: 18px;
+   margin-top: -144px;
+   list-style: none;
+   padding: 44px 16px;
+   font-family: $font-primary;
+   color: black;
+   & .Account{
+   
+    margin-top: 14px;
+    margin-bottom: 7px;
+    & li{
+        width: 184px;
+        list-style: none;
+        margin-left: -42px;
+        padding: 10px;
+
+    }
+   }
+}
+
+
+}
+.container2{
+    width: 670px;
+    height: 348px;
+    margin-top: -440px;
+margin-left: 340px;
+
+
+& .card{
+    margin-top: -440px;
+    margin-left: 100px;
+    width: 280px;
+    height: 105px;
+   & .card-body{
+    border: 5px solid $background-secondary;
+    border-radius: 24px;
+// width:280px ;
+// height: 116px;
+   font-family: $font-primary;
+   padding: 25px;
+
+   }
+
+
+
+}}
