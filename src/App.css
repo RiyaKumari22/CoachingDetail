@@ -343,17 +343,21 @@ nav {
       padding-bottom: 16px; }
       .detail__c-c .tcard .section {
         display: inline-block; }
+        .detail__c-c .tcard .section .section__item-i {
+          width: 634px;
+          margin-left: 46px;
+          padding: 20px;
+          font-size: 20px;
+          font-family: "poppins"; }
         .detail__c-c .tcard .section .section__item {
           display: inline-block;
-          padding: 12px;
+          padding: 16px;
           height: 165px;
           width: 434px;
-          margin-left: 34px;
-          margin-bottom: 11px; }
+          margin-left: 38px; }
           .detail__c-c .tcard .section .section__item .title {
             border-radius: 12px;
-            padding: 7px;
-            width: 295px;
+            padding: 12px;
             font-size: 17px;
             font-family: "poppins"; }
       .detail__c-c .tcard h2 {
@@ -370,7 +374,6 @@ nav {
         flex-direction: row;
         margin-left: 23px;
         margin-top: 11px;
-        width: 340px;
         height: 120px; }
         .detail__c-c .tcard .head .head__item {
           margin-top: 22px;
@@ -459,6 +462,7 @@ nav {
       .edit__c-c .form .form-submit {
         font-family: "poppins";
         font-size: 15px;
+        margin-right: 12px;
         cursor: pointer;
         padding: 10px 20px;
         border-radius: 5px;
